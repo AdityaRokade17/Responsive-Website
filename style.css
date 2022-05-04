@@ -1,0 +1,501 @@
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bg-teal{
+    background-color: #181717 !important;
+}
+.btn-teal{
+    background-color: black;
+    color: white;
+}
+.btn-teal:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 0.5px solid black;
+}
+.text-teal{
+    color: #222222 !important;
+}
+.my-prev-next{
+    color: rgb(24, 22, 22);
+}
+.my-p{
+    color: rgb(206, 206, 206);
+}
+.carousel .carousel-indicators li {
+    width: 30px;
+    height: 5px;
+    border-radius: 0%
+}
+.carousel-caption{
+    bottom: 200px;
+}
+/* ############################### NAV ########################################3 */
+.my-nav{
+    background-color: rgb(253, 253, 253);
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.my-brand{
+    margin-top: -10px;
+    color: black;
+    font-size: 30px;
+}
+.my-menu{
+    color: black;
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.bg-head{
+   
+    font-weight: 600;
+}
+/* ######################## Validation @@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.login{
+    border-radius: 3px;
+    border: none;
+    color: black;
+    margin-top: -8px;
+    font-size: 18px;
+    margin-right: -1px;
+}
+.login:hover{
+    background-color: rgb(65, 62, 62);
+    color: white;
+}
+.signup{
+    border: none;
+    color: black;
+    margin-top: -8px;
+    font-size: 18px;
+    background-color: #90b6e7;
+    border-radius: 3px;
+    color: white;
+}
+.signup:hover{
+    color: rgb(255, 255, 255);
+    /* border: 1px solid rgb(156, 153, 153); */
+    background-color: rgb(65, 62, 62);
+}
+
+.avatar1{
+    height: 10s0px;
+    width: 100px;
+    
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  
+  /* Set a style for all buttons */
+/* .login {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+button:hover {
+    opacity: 0.8;
+}
+   */
+ /* Extra styles for the cancel button */
+.cancelbtn {
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f12e20;
+    color: white;
+}
+.cancelbtn:hover{
+    background-color: rgb(247, 96, 96);
+}
+  /* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+  
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+  
+.container {
+    padding: 16px;
+}
+  
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.psw a{
+    color: #3fa2e4;
+}
+.login1{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(204, 199, 199); 
+
+}
+.login1:hover{
+    background-color: #3fa2e4;
+}
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+  
+  /* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+  
+  /* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+  
+  /* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+  
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+  /* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       border: none;
+       width: 100%;
+    }
+}
+/* ########################### sign up validation ################################3 */
+/* #email1{
+    height: 30px;
+    padding: 25px;
+
+} */
+
+
+/* ############### pass validatiom ######################### */
+#message {
+    display:none;
+    background: #bdbdbd;
+    color: #000;
+    position: relative;
+    padding: 10px;
+    padding-left: 50px;
+    margin-top: 5px;
+  }
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+
+
+/* $######################## SEARCH ##############################################3333333 */
+.my-search{
+    margin-top: 75px;
+   margin-bottom: 60px;
+}
+
+.h2{
+    margin-top: 15px;
+}
+.search-sec-card{
+    border-radius: 20px;
+}
+
+/* ##############################33  popular places 3333333#############3333 */
+.text-head{
+    color: rgb(41, 128, 168);
+}
+.pop-card{
+    box-shadow: 5px #353535;
+}
+.pop-button{
+    background-color: #181717;
+    color: white;
+}
+.pop-button:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+/* ##################################### Follow tripify #########################################3 */
+.social-media-fb{
+    cursor: pointer;
+    border-radius: 50px;
+}
+.social-media-fb:hover{
+    color: #3b5998;
+    box-shadow: 0px 0 30px 0 #3b5998
+}
+.social-media-insta:hover{
+    color: #e44a3f;
+    box-shadow: 0 0 24px 0 #e24242
+}
+
+.social-media-insta{
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.social-media-linkedin:hover{
+    color: #334aaf;
+    box-shadow: 0 0 24px 0 #2f2dbe
+}
+
+.social-media-linkedin{
+    cursor: pointer;
+    border-radius: 50px;
+}
+.social-media-yt:hover{
+    color: #ff1100;
+    box-shadow: 0 0 24px 0 #e24242
+}
+
+.social-media-yt{
+    cursor: pointer;
+    border-radius: 50px;
+}
+.social-media-yt:hover{
+    color: #e44a3f;
+    box-shadow: 0 0 24px 0 #e24242
+}
+
+
+.social-media-tw:hover{
+    color: #3fa2e4;
+    box-shadow: 0 0 24px 0 #428de2
+}
+.social-media-tw{
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+/* ################################# Form button ####################################### */
+.form-button{
+    cursor: pointer;
+    color: white;
+    background-color: #181717;
+    border: none;
+    border-radius: 5px;
+}
+.form-button:hover{
+    color: #ffffff;
+    background-color: rgb(34, 34, 34);
+}
+
+/* $$$$$$############## footer ############################ */
+
+.foot-q{
+    margin-left: -100px;
+}
+.foot-q1{
+    margin-left: -80px;
+}
+.foot-q3{
+    margin-left: -100px;
+}
+
+.foot-c1{
+    margin-left: -90px;
+}
+
+.foot-c2{
+    margin-left: -100px;
+}
+.foot-c3{
+    margin-left: -10px;
+}
+
+.foot-c4{
+    margin-left: 4px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+/* ####################################### Book page @########################################################### */
+
+.heading{
+    background-size: cover !important;
+    background-position: center !important;
+    padding-top: 10rem;
+    padding-bottom:10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .heading-title{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:var(--black);
+ }
+ .heading h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:var(--white);
+    text-shadow: var(--text-shadow);
+ }
+.booking .book-form{
+    padding:3rem;
+    background: var(--light-bg);
+ }
+ 
+ .booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+ }
+ 
+ .booking .book-form .flex .inputBox{
+    flex:1 1 30rem;
+ }
+ 
+ .booking .book-form .flex .inputBox input{
+    width: 100%;
+    padding:10px 1rem;
+    font-size: 1.6rem;
+    color:black;
+    text-transform: none;
+    margin-top: 0.5rem;
+    border:var(--border);
+ }
+ 
+ .booking .book-form .flex .inputBox input:focus{
+    background: black;
+    color:white;
+ }
+ 
+ .booking .book-form .flex .inputBox input:focus::placeholder{
+    color:rgb(7, 7, 7);
+ }
+ 
+ .booking .book-form .flex .inputBox span{
+    font-size: 1.5rem;
+    color:var(--light-black);
+ }
+ 
+ .booking .book-form .btn{
+    margin-top: 2rem;
+ }
+ 
+.flex{
+    background-color: rgb(146, 146, 146);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
+
