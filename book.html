@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Tripify </title>
+</head>
+<body>
+
+    <!-- Main Navbar -->
+    <!-- <nav class="navbar navbar-expand-sm my-nav">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand my-brand">
+               <i class="fa fa-plane-departure">   </i> TRIPIFY  </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#travel-navbar">
+                <span class="navbar-toggler-icon my-toggle"></span>
+            </button>
+            
+
+            <div class="collapse navbar-collapse" id="travel-navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-3">
+                        <a href="index.html" class="nav-link my-menu">HOME</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#search" class="nav-link my-menu">SEARCH</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#places" class="nav-link my-menu">POPULAR PLACES</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#gallery" class="nav-link my-menu">GALLARY</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#contact" class="nav-link my-menu">CONTACT</a>
+                    </li>
+                    <li>
+                        <button class="login p-2" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">LOG IN</button>
+                    </li>
+                    <li>
+                        <button class="signup p-2" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">SIGN UP</button>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- header section ends -->
+
+<div class="container-fluid heading" style="background:url(/TRIPIFY/images/header-bg-3.png) no-repeat">
+    <h1>book now</h1>
+</div>
+ 
+ <!-- booking section starts  -->
+ 
+ <section class="booking">
+ 
+    <h1 class="heading-title">Book Your Trip!</h1>
+ 
+    <form action="book_form.php" method="post" class="book-form">
+ 
+       <div class="flex">
+          <div class="inputBox">
+             <span>Name :</span>
+             <input type="text" placeholder="enter your name" name="name">
+          </div>
+          <div class="inputBox">
+             <span>email :</span>
+             <input type="email" placeholder="enter your email" name="email">
+          </div>
+          <div class="inputBox">
+             <span>phone :</span>
+             <input type="number" placeholder="enter your number" name="phone">
+          </div>
+          <div class="inputBox">
+             <span>address :</span>
+             <input type="text" placeholder="enter your address" name="address">
+          </div>
+          <div class="inputBox">
+             <span>where to :</span>
+             <input type="text" placeholder="place you want to visit" name="location">
+          </div>
+          <div class="inputBox">
+             <span>how many :</span>
+             <input type="number" placeholder="number of guests" name="guests">
+          </div>
+          <div class="inputBox">
+             <span>arrivals :</span>
+             <input type="date" name="arrivals">
+          </div>
+          <div class="inputBox">
+             <span>leaving :</span>
+             <input type="date" name="leaving">
+          </div>
+       </div>
+ 
+       <input type="submit" value="submit" class="btn" name="send">
+ 
+    </form>
+ 
+ </section>
+ 
+ <!-- booking section ends -->
+ 
+
+    <!-- Main Footer -->
+    <footer class="p-5 mt-3 bg-teal text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 ml-sm-n5">
+                    <h3>Copyright &copy; 2022 , Tripify Pvt Ltd</h3>
+                    <h6>All Rights Reserved</h6>
+                    <h6>Developed & Maintained by Aditya Rokade</h6>
+                </div>
+                <div class="col-sm-5">
+                    <h3 class="mb-3">QUICK LINKS</h3>
+                    <a href="#"><h6 class="foot-q"><i class="fas fa-greater-than pr-2"> </i>HOME</h6></a>
+                    <a href="#search"><h6 class="foot-q1"><i class="fas fa-greater-than pr-2"></i>SEARCH</h6>
+                    <a href="#places"><h6> <i class="fas fa-greater-than pr-2"> </i>POPULAR PLACES</h6>
+                    <a href="#contact"><h6 class="foot-q3">  <i class="fas fa-greater-than pr-2"> </i>BOOK</h6></a>
+
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="mb-3">CONTACT</h3>
+                    <h6 class="foot-c1"><i class="fab fa-neos pr-2"></i>ADITYA ROKADE</h6>
+                    <h6 class="foot-c2 "><i class="fas fa-phone pr-2"> </i>+91-9881180488</h6>
+                    <h6 class="foot-c3"> <i class="fas fa-envelope pr-2"></i>rokadeaditya634@gmail.com</h6>
+                    <h6 class="foot-c4">  <i class="far fa-address-card pr-2"> </i>NASHIK,MARASHTRA,INDIAs</h6>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
